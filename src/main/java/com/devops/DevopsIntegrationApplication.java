@@ -11,7 +11,7 @@ public class DevopsIntegrationApplication {
 
 	@GetMapping
 	public String message(){
-		return "Welcome to Sample Devops App";
+		return "Welcome to Sample Application deployed in Kubernetes using Jenkins Pipeline";
 	}
 
 	public static void main(String[] args) {
